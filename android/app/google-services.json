@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "576438634856",
+    "project_id": "authen-9a0cd",
+    "storage_bucket": "authen-9a0cd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:576438634856:android:7514c76af567e0d7fdaedd",
+        "android_client_info": {
+          "package_name": "com.authenface"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDs6qitHMGHXYDgY09jLQQNRQ5qNYRDCwI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
