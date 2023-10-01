@@ -3,6 +3,7 @@ import {Text, View, StyleSheet, Dimensions} from 'react-native';
 const {width, height} = Dimensions.get('window');
 export const SLIDE_HEIGHT = 0.61 * height;
 import {Button} from '../../../components';
+
 interface SubslideProps {
   subtitle: string;
   description: string;

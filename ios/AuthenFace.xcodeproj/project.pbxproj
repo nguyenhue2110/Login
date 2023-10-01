@@ -15,6 +15,7 @@
 		500814FE631386C49CE1E789 /* libPods-AuthenFace-AuthenFaceTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1857B05CD8A4DEF3404F4372 /* libPods-AuthenFace-AuthenFaceTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		AE069A5E2ABDE8C3003B5CFB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AE069A5D2ABDE8C3003B5CFB /* GoogleService-Info.plist */; };
+		AE069A612AC98CAE003B5CFB /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = AE069A602AC98CAE003B5CFB /* Fonts */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		89C6BE57DB24E9ADA2F236DE /* Pods-AuthenFace-AuthenFaceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AuthenFace-AuthenFaceTests.release.xcconfig"; path = "Target Support Files/Pods-AuthenFace-AuthenFaceTests/Pods-AuthenFace-AuthenFaceTests.release.xcconfig"; sourceTree = "<group>"; };
 		AE069A5D2ABDE8C3003B5CFB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		AE069A5F2ABDF684003B5CFB /* AuthenFace.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = AuthenFace.entitlements; path = AuthenFace/AuthenFace.entitlements; sourceTree = "<group>"; };
+		AE069A602AC98CAE003B5CFB /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Fonts; path = "../node_modules/react-native-vector-icons/Fonts"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -89,6 +91,7 @@
 		13B07FAE1A68108700A75B9A /* AuthenFace */ = {
 			isa = PBXGroup;
 			children = (
+				AE069A602AC98CAE003B5CFB /* Fonts */,
 				AE069A5F2ABDF684003B5CFB /* AuthenFace.entitlements */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
@@ -251,6 +254,7 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				AE069A5E2ABDE8C3003B5CFB /* GoogleService-Info.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				AE069A612AC98CAE003B5CFB /* Fonts in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

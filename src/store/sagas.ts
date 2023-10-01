@@ -1,4 +1,4 @@
-import loginSagas from '../features/Login/sagas';
+import loginSagas from '../features/login/sagas';
 import {all, fork} from 'redux-saga/effects';
 
 export default function* rootSaga() {
